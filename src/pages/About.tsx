@@ -5,7 +5,7 @@ import Headline from "../components/Headline";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-between  h-full">
+    <div className="flex flex-col justify-between  h-screen">
       <Header />
       <Headline title="Who we are" />
       <div className="flex items-center justify-evenly mt-16">
