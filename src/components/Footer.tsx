@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div>
       {" "}
-      <footer className=" bg-[#F1F1F1] abstand  pt-18">
+      <footer className=" bg-[#F1F1F1] abstand mt-8  pt-10">
         <div className="flex items-start justify-center ">
-          <div className="w-[90%] border-t-1 pt-8 text-[#8D8D8D] flex flex-col gap-4">
+          <div className="w-full border-t-1 pt-8 text-[#8D8D8D] flex flex-col gap-4">
             <div>
               <img className="object-contain" src={logo} alt="logo" />
             </div>
@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center text-[#8D8D8D]">
-          <p>© 2020 WOODIES</p>
+          <p>© 2025 WOODIES by @DerVossi</p>
         </div>
       </footer>
     </div>
