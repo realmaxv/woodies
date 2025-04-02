@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "nunito";
+  src: url("./assets/fonts/Nunito-VariableFont_wght.ttf");
+}
+
+:root {
+  --bg-color: #E5E5E5;
+  --sec-bg-color: #F9BDBD;
+  --btn-color: #DAA520;
+  --bg-footer: #F1F1F1;
+  --text-color: #3E3F43;
+
+
+}
+
+
+.products {
+  @apply text-[#2222221a] font-extrabold text-7xl font-["nunito"];
+}
+
+.font-nunito {
+  @apply font-["nunito"];
+}
+
+.abstand {
+  @apply px-20;
+}
+
+.button {
+  @apply bg-[#DAA520] py-3.5 px-6 rounded text-white
+}
+
+.bg-tisch {
+  background-image: url(./assets/Tisch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
