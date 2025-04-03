@@ -8,8 +8,12 @@ const Krisha = () => {
       <Header />
       <Headline title="Krisha" />
       <section className="flex items-center gap-20 justify-center ">
-        <img src={schuesseln} alt="tisch" />
-        <article className="max-w-xl text-left">
+        <img
+          src={schuesseln}
+          alt="tisch"
+          className="motion-preset-fade motion-duration-2000 motion-translate-x-in-75"
+        />
+        <article className="max-w-xl text-left motion-preset-fade motion-duration-2000 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit
           quos voluptatem natus ipsum molestiae incidunt nemo aut quod atque
           nisi voluptas, tempore recusandae magnam? Similique nobis sequi

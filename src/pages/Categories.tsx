@@ -14,9 +14,17 @@ const Categories = () => {
       <Header />
       <Headline title="What we have" />
       <div className="flex items-center justify-evenly">
-        <Product name="Jenson" imagesrc={tisch} linkto="/jenson" />
-        <Product name="Deon" imagesrc={stuhl} linkto="/deon" />
-        <Product name="Krisha" imagesrc={schuesseln} linkto="/krisha" />
+        <div className="motion-preset-slide-left">
+          <Product name="Jenson" imagesrc={tisch} linkto="/jenson" />
+        </div>
+        <div className="motion-preset-slide-left motion-delay-100">
+          {" "}
+          <Product name="Deon" imagesrc={stuhl} linkto="/deon" />
+        </div>
+        <div className="motion-preset-slide-left motion-delay-150">
+          {" "}
+          <Product name="Krisha" imagesrc={schuesseln} linkto="/krisha" />
+        </div>
       </div>
       <Footer />
     </div>
