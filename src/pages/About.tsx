@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="flex flex-col justify-between  h-screen">
       <Header />
-      <Headline title="Who we are" />
+      <Headline title="Who we are" ueberschrift="White Harmony´s" />
       <div className="flex items-center justify-evenly mt-16">
         <img src={about} alt="about" />
         <section className="flex  flex-col gap-8 justify-center  items-start ">

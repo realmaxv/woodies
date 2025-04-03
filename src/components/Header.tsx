@@ -1,5 +1,5 @@
-import logo from "/src/assets/Logo.png";
-// import home from "/src/assets/Home.png";
+// import logo from "/src/assets/Logo.png";
+import dog from "/src/assets/dog-solid.svg";
 // import about from "/src/assets/About.png";
 // import stuhl from "/src/assets/Stuhl.png";
 // import schuesseln from "/src/assets/Schuesseln.png";
@@ -12,7 +12,12 @@ const Header = () => {
       {" "}
       <header className=" ">
         <div className="h-20 flex items-center abstand justify-between ">
-          <img src={logo} alt="logo" />
+          <div className="flex items-center justify-center gap-4">
+            <img src={dog} alt="logo" className="w-10" />
+            <h2 className="text-3xl font-bold text-[#313235]">
+              White Harmony´s
+            </h2>
+          </div>
           <nav className="flex gap-12 text-[#8D8D8D] ">
             <Link to={"/"}>Home</Link>
             <Link to={"/about"}>About Us</Link>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
-import home from "/src/assets/Home.png";
-
+// import home from "/src/assets/Home.png";
+import westie from "/src/assets/head_whs.png";
 const Home = () => {
   return (
     <div className="">
@@ -15,7 +15,8 @@ const Home = () => {
             <p className="text-4xl  ">
               Are you looking for{" "}
               <b>
-                woodden <br /> furniture
+                fluffy
+                <br /> happiness
               </b>{" "}
               for your place?
             </p>
@@ -23,12 +24,16 @@ const Home = () => {
               This is the Right Place
             </h2>
             <Link className="button" to={"/categories"}>
-              Explore Categories
+              Our dogs
             </Link>
           </section>
         </div>
         <div className="w-160 absolute"></div>
-        <img src={home} className="relative right-50" alt="home" />
+        <img
+          src={westie}
+          className="relative right-50 max-h-100 max-w-full mix-blend-luminosity rounded-full shadow-2xl  ring-3 ring-amber-500 "
+          alt="home"
+        />
       </div>
     </div>
   );

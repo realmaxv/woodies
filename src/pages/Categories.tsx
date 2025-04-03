@@ -12,7 +12,7 @@ const Categories = () => {
   return (
     <div className="flex flex-col justify-between  h-screen">
       <Header />
-      <Headline title="What we have" />
+      <Headline title="What we have" ueberschrift="happiness" />
       <div className="flex items-center justify-evenly">
         <Product name="Jenson" imagesrc={tisch} linkto="/jenson" />
         <Product name="Deon" imagesrc={stuhl} linkto="/deon" />
